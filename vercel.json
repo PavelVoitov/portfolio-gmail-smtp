@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "nodejs-portfolio-ts",
+  "builds": [
+    { "src": "src/index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "src/index.js" }
+  ]
+}
